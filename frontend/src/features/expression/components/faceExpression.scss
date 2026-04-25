@@ -1,0 +1,71 @@
+.face-card {
+    width: 420px;
+    margin-top: 40px;
+
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+
+    color: white;
+}
+
+/* Camera */
+
+.face-card__camera {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.face-card__video {
+    width: 100%;
+    display: block;
+    border-radius: 14px;
+}
+
+/* Expression result */
+
+.face-card__result {
+    text-align: center;
+}
+
+.face-card__label {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.face-card__expression {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ff6a2b;
+}
+
+/* Button */
+
+.face-card__btn {
+    background: #ff6a2b;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    color: white;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.face-card__btn:hover {
+    background: #ff814f;
+    transform: translateY(-2px);
+}

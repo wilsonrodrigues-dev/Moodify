@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,#root{
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(186, 48, 48);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 15px;
+
+    a{
+        color: rgb(186, 48, 48);
+        text-decoration: none;
+    }
+}
